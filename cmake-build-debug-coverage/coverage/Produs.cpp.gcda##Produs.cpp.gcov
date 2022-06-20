@@ -1,0 +1,126 @@
+        -:    0:Source:C:/Users/HP/CLionProjects/ProiectPP/Clase/Produs.cpp
+        -:    0:Graph:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\Clase\Produs.cpp.gcno
+        -:    0:Data:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\Clase\Produs.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by HP on 30-May-22.
+        -:    3://
+        -:    4:
+        -:    5://
+        -:    6:// Created by HP on 29-May-22.
+        -:    7://
+        -:    8:
+        -:    9:#include "Produs.h"
+        -:   10:#include <iostream>
+        -:   11:#include<string>
+        -:   12:
+        -:   13:using namespace std;
+        -:   14:
+function _ZN6ProdusC2Ev called 0 returned 0% blocks executed 0%
+    #####:   15:Produs::Produs() {
+    %%%%%:   15-block  0
+call    0 never executed
+        -:   16:
+    #####:   17:}
+        -:   18:
+function _ZN6ProdusC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEid called 24 returned 100% blocks executed 80%
+       24:   19:Produs::Produs(string denumire, int cantitate, double pret) {
+       24:   19-block  0
+call    0 returned 24
+       24:   20:    this->denumire = denumire;
+call    0 returned 24
+branch  1 taken 24 (fallthrough)
+branch  2 taken 0 (throw)
+       24:   21:    this->cantitate = cantitate;
+       24:   22:    this->pret = pret;
+       24:   23:    this->id = contor++;
+        -:   24:
+       24:   25:}
+       24:   25-block  0
+    $$$$$:   25-block  1
+call    0 never executed
+        -:   26:
+function _ZN6Produs11getDenumireB5cxx11Ev called 24 returned 100% blocks executed 100%
+       24:   27:string Produs::getDenumire() {
+       24:   28:    return this->denumire;
+       24:   28-block  0
+call    0 returned 24
+        -:   29:}
+        -:   30:
+function _ZN6Produs12getCantitateEv called 17 returned 100% blocks executed 100%
+       17:   31:int Produs::getCantitate() {
+       17:   32:    return this->cantitate;
+       17:   32-block  0
+        -:   33:}
+        -:   34:
+function _ZN6Produs7getPretEv called 17 returned 100% blocks executed 100%
+       17:   35:double Produs::getPret() {
+       17:   36:    return this->pret;
+       17:   36-block  0
+        -:   37:}
+        -:   38:
+function _ZN6Produs5getIDEv called 0 returned 0% blocks executed 0%
+    #####:   39:int Produs::getID() {
+    #####:   40:    return this->id;
+    %%%%%:   40-block  0
+        -:   41:}
+        -:   42:
+        -:   43:int Produs::contor = 0;
+        -:   44:
+function _ZN6Produs12setCantitateEi called 1 returned 100% blocks executed 100%
+        1:   45:void Produs::setCantitate(int cantitate) {
+        1:   46:    this->cantitate = cantitate;
+        -:   47:
+        1:   48:}
+        -:   49:
+function _ZN6Produs7setPretEd called 0 returned 0% blocks executed 0%
+    #####:   50:void Produs::setPret(double pret) {
+    #####:   51:    this->pret = pret;
+        -:   52:
+    #####:   53:}
+        -:   54:
+function _ZN6Produs8toStringB5cxx11Ev called 0 returned 0% blocks executed 0%
+    #####:   55:string Produs::toString() {
+    #####:   56:    return this->id + " " + this->denumire + " " + to_string(this->cantitate) + "\n";
+    %%%%%:   56-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:   56-block  1
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:   56-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:   56-block  3
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+    %%%%%:   56-block  4
+call   13 never executed
+call   14 never executed
+call   15 never executed
+call   16 never executed
+    %%%%%:   56-block  5
+    $$$$$:   56-block  6
+call   17 never executed
+    $$$$$:   56-block  7
+    $$$$$:   56-block  8
+call   18 never executed
+    $$$$$:   56-block  9
+    $$$$$:   56-block 10
+call   19 never executed
+    $$$$$:   56-block 11
+    $$$$$:   56-block 12
+call   20 never executed
+        -:   57:}
+        -:   58:
+function _ZN6Produs4egalES_ called 0 returned 0% blocks executed 0%
+    #####:   59:bool Produs::egal(Produs produs1) {
+    #####:   60:    return this->id == produs1.getID();
+    %%%%%:   60-block  0
+call    0 never executed
+        -:   61:}

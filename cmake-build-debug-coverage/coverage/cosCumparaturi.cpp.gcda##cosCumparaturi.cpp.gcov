@@ -1,0 +1,26 @@
+        -:    0:Source:C:/Users/HP/CLionProjects/ProiectPP/Clase/cosCumparaturi.cpp
+        -:    0:Graph:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\Clase\cosCumparaturi.cpp.gcno
+        -:    0:Data:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\Clase\cosCumparaturi.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by HP on 30-May-22.
+        -:    3://
+        -:    4:
+        -:    5:#include "cosCumparaturi.h"
+        -:    6:
+function _ZN14CosCumparaturi13adauga_produsE6Produs4Stoc called 0 returned 0% blocks executed 0%
+    #####:    7:void CosCumparaturi::adauga_produs(Produs produs_pentru_adaugat, Stoc stoc) {
+        -:    8:    /*
+        -:    9:    for (auto produs : stoc.getProduse())
+        -:   10:        if (produs.egal(produs_pentru_adaugat)) {
+        -:   11:            this->produse.push_back(produs_pentru_adaugat);
+        -:   12:        }
+        -:   13:        */
+    #####:   14:}
+        -:   15:
+function _ZN14CosCumparaturi10getProduseEv called 0 returned 0% blocks executed 0%
+    #####:   16:vector<Produs> CosCumparaturi::getProduse() {
+    #####:   17:    return this->produse;
+    %%%%%:   17-block  0
+call    0 never executed
+        -:   18:}

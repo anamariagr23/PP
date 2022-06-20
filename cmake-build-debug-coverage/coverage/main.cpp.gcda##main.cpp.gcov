@@ -1,0 +1,287 @@
+        -:    0:Source:C:/Users/HP/CLionProjects/ProiectPP/main.cpp
+        -:    0:Graph:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\HP\CLionProjects\ProiectPP\cmake-build-debug-coverage\CMakeFiles\ProiectPP.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include <fstream>
+        -:    3:#include <stdlib.h>
+        -:    4:#include <Windows.h>
+        -:    5:#include "Clase/Produs.h"
+        -:    6:#include "main2.cpp"
+        -:    7:using namespace std;
+        -:    8:
+        -:    9:
+function _Z15adaugare_produs6Produs called 1 returned 100% blocks executed 75%
+        1:   10:void adaugare_produs(Produs i){
+        1:   11:    ofstream fout("C:\\Users\\HP\\CLionProjects\\ProiectPP\\stoc.txt",std::ios_base::app);
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12:    fout<<i.getDenumire()<<'\n'<<i.getCantitate()<<'\n'<<i.getPret()<<'\n';
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   12-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   12-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   12-block  4
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   12-block  5
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   12-block  6
+call   18 returned 1
+branch 19 taken 1 (fallthrough)
+branch 20 taken 0 (throw)
+        1:   12-block  7
+call   21 returned 1
+branch 22 taken 1 (fallthrough)
+branch 23 taken 0 (throw)
+        1:   12-block  8
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   12-block  9
+call   27 returned 1
+    $$$$$:   12-block 10
+call   28 never executed
+    $$$$$:   12-block 11
+        1:   13:    fout.close();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   14:}
+        1:   14-block  0
+call    0 returned 1
+    $$$$$:   14-block  1
+call    1 never executed
+function _Z5meniuv called 7 returned 100% blocks executed 100%
+        7:   15:void meniu()
+        -:   16:{
+        7:   17:    cout<<"Adaugare produs in stoc......1\n";
+        7:   17-block  0
+call    0 returned 7
+        7:   18:    cout<<"Afisare stoc.................2\n";
+call    0 returned 7
+        7:   19:    cout<<"Stergere produs din stoc.....3\n";
+call    0 returned 7
+        7:   20:    cout<<"Modificare produs din stoc...4\n";
+call    0 returned 7
+        7:   21:    cout<<"Iesire din progrm............0\n";
+call    0 returned 7
+        -:   22:    //adaugare produs in cos - verificari daca se afla in vectorul de stoc ---- main1
+        -:   23:    //vizualizare cos cumparaturi -- main2
+        -:   24:    //modificare produs din cos- cantitate--main2
+        -:   25:    //plasare comanda- golire cosCumparaturi.txt , total , list produse comandate-main2
+        -:   26:    //vizualizare comenzi-oriunde
+        7:   27:}
+function _Z16adaugare_in_stocv called 1 returned 100% blocks executed 71%
+        1:   28:void adaugare_in_stoc(){
+        1:   29:    string denumire;
+        1:   29-block  0
+call    0 returned 1
+        1:   30:    cout<<"Deniumire: ";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   31:    cin.ignore();
+        1:   31-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   32:    getline(cin,denumire);
+        1:   32-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   33:    int cantitate;
+        -:   34:    double pret;
+        1:   35:    cout<<"Cantitate: ";
+        1:   35-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   36:    cin>>cantitate;
+        1:   36-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   37:    cin.ignore();
+        1:   37-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   38:    cout<<"Pret: ";
+        1:   38-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   39:    cin>>pret;
+        1:   39-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40:    cin.ignore();
+        1:   40-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41:    adaugare_produs(Produs(denumire,cantitate,pret));// scriu in fisier
+        1:   41-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   41-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   41-block  3
+call    9 returned 1
+call   10 returned 1
+    $$$$$:   41-block  4
+call   11 never executed
+    $$$$$:   41-block  5
+    $$$$$:   41-block  6
+call   12 never executed
+    $$$$$:   41-block  7
+        1:   42:    system("pause");
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   43:    system("cls");
+        1:   43-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   44:}
+        1:   44-block  0
+call    0 returned 1
+    $$$$$:   44-block  1
+call    1 never executed
+        -:   45:
+function main called 1 returned 100% blocks executed 100%
+        7:   46:int main(){
+        -:   47:
+        -:   48:    while(1!=0)
+        -:   49:    {
+        7:   50:        int alegere=-1;
+        7:   51:        meniu();//apel de printare al meniului
+        7:   51-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+       13:   52:        while (alegere<0 || alegere>5)
+        7:   52-block  0
+       13:   52-block  1
+branch  0 taken 7
+branch  1 taken 6 (fallthrough)
+        6:   52-block  2
+branch  2 taken 0
+branch  3 taken 6 (fallthrough)
+        -:   53:        {
+        7:   54:            citire_produse();
+        7:   54-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        7:   55:            cout<<"\nIntroduceti numarul optiunii dorite: ";
+        7:   55-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        7:   56:            cin>>alegere;
+        7:   56-block  0
+call    0 returned 7
+branch  1 taken 7 (fallthrough)
+branch  2 taken 0 (throw)
+        7:   57:            switch (alegere) {
+        7:   57-block  0
+branch  0 taken 1
+branch  1 taken 1
+branch  2 taken 3
+branch  3 taken 1
+branch  4 taken 1
+branch  5 taken 0
+        1:   58:                case 0:
+        1:   59:                    return 0;
+        1:   59-block  0
+        1:   60:                case 1:
+        1:   61:                    system("cls");
+        1:   61-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   62:                    adaugare_in_stoc();
+        1:   62-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   63:                    break;
+        1:   63-block  0
+        3:   64:                case 2:
+        3:   65:                    system("cls");
+        3:   65-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   66:                    afisare_produse();
+        3:   66-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   67:                    break;
+        3:   67-block  0
+        1:   68:                case 3:
+        1:   69:                    system("cls");
+        1:   69-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   70:                    stergere_produse();
+        1:   70-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   71:                    break;
+        1:   71-block  0
+        1:   72:                case 4:
+        1:   73:                    system("cls");
+        1:   73-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   74:                    modificare();
+        1:   74-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   75:                    break;
+        1:   75-block  0
+        -:   76:
+        -:   77:            }
+        6:   78:            produse.clear();
+        6:   78-block  0
+call    0 returned 6
+        -:   79:        }
+        6:   80:    }
+        6:   80-block  0
+        -:   81:
+        -:   82:}

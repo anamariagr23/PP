@@ -1,0 +1,9 @@
+Ciocolata
+1000
+200
+Struguri
+300
+300
+Sampon
+6
+24
