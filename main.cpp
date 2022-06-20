@@ -22,7 +22,7 @@ void meniu()
     //adaugare produs in cos - verificari daca se afla in vectorul de stoc ---- main1
     //vizualizare cos cumparaturi -- main2
     //modificare produs din cos- cantitate--main2
-    //plasare comanda- golire cosCumparaturi.txt , total , list produse comandate-main2
+    //plasare comanda- golire cosCumparaturi.txt.txt , total , list produse comandate-main2
     //vizualizare comenzi-oriunde
 }
 void adaugare_in_stoc(){
